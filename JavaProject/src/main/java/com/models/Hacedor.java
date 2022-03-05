@@ -6,8 +6,13 @@ public class Hacedor extends Usuario{
 	}
 
 	@Override
-	String modificarInformacion() {
-		return null;
+	String obtenerInformacion() {
+		String informacion = "BIENVENIDO HACEDOR!"+"Nombre: " + this.getUsuNombre() + " Contra: "+this.getUsuContra();
+		return informacion;
+	}
+
+	public void mostrarInformacion() {
+		System.out.println(this.obtenerInformacion());
 	}
 	
 }

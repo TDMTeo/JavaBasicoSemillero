@@ -18,6 +18,6 @@ public abstract class Usuario {
 		return usuContra;
 	}
 	
-	abstract  String modificarInformacion();
+	abstract String obtenerInformacion();
 	 
 }
